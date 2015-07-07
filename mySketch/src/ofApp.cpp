@@ -13,6 +13,8 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+    ofSetCircleResolution(64);
+    ofCircle(ofGetWidth()/2, ofGetHeight()/2, 300);
 
 }
 
